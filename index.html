@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example Two Layout</title>
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Times New Roman, serif;
+}
+
+.container{
+    width:80%;
+    margin:20px auto;
+    border:5px solid rgb(6, 0, 128);
+    padding:10px;
+}
+
+header{
+    background:rgb(46, 46, 125);
+    text-align:center;
+    padding:40px;
+    border:3px solid rgb(8, 134, 113);
+}
+
+header h1{
+    font-size:50px;
+}
+
+.content{
+    display:flex;
+    margin-top:10px;
+}
+
+nav{
+    width:15%;
+    border:2px solid black;
+    padding:10px;
+}
+
+nav a:hover{
+    display:inline-block;
+    margin-right:5px;
+    color:rgb(0, 102, 255);
+    
+}
+
+main{
+    width:50%;
+    border:2px solid blue;
+    padding:10px;
+}
+
+main img{
+    width:190px;
+    height:190px;
+    float:left;
+    margin-right:10px;
+}
+
+aside{
+    width:35%;
+    border:2px solid rgb(108, 0, 0);
+    padding:5px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid #999;
+    padding:8px;
+}
+
+footer{
+    margin-top:10px;
+    text-align:center;
+    padding:20px;
+    border:3px solid rgb(8, 91, 27);
+}
+    </style>
+   
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>DALKA SOMALIA</h1>
+    </header>
+
+    <div class="content">
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+        </nav>
+
+        <main>
+            <img src="calan.jpeg" alt="sawir">
+
+            <p>
+                Soomaaliya waa dal ku yaalla Geeska Afrika, caasimaddiisuna waa Mogadishu. Dalka wuxuu leeyahay xeebta ugu dheer Afrika, wuxuuna caan ku yahay taariikhdiisa, dhaqankiisa hodanka ah, iyo dadka marti-soorka leh. Dhaqaalaha Soomaaliya wuxuu ku tiirsan yahay xoolaha, beeraha, kalluumeysiga, iyo ganacsiga. Inkastoo ay jireen caqabado badan, Soomaaliya waxay leedahay fursado badan oo horumar iyo dib-u-dhis ah.
+          
+            </p>
+        </main>
+
+        <aside>
+            <table border="1">
+                <tr>
+                    <th>ST ID</th>
+                    <th>ST Tel</th>
+                    <th>ST Name</th>
+                </tr>
+
+                <tr>
+                    <td>001</td>
+                    <td>617706340</td>
+                    <td>ABDUKADIR OMAR HUSSEIN</td>
+                </tr>
+
+                <tr>
+                    <td>002</td>
+                    <td>610889735</td>
+                    <td>MUSTAF MAXAMED CALI</td>
+                </tr>
+
+                <tr>
+                    <td>003</td>
+                    <td>618443264</td>
+                    <td>ABDINASIR ALI MOHAMUUD</td>
+                </tr>
+
+                <tr>
+                    <td>004</td>
+                    <td>615460269</td>
+                    <td>OSAME QASIM HASSAN</td>
+                </tr>
+            </table>
+        </aside>
+
+    </div>
+
+    <footer>
+        &copy; daada
+    </footer>
+
+</div>
+
+</body>
+</html>
